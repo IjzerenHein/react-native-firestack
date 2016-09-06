@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170224EDD547FC0C78DA1E9D /* libPods-Firestack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A186F11042C569425E5D5F /* libPods-Firestack.a */; };
+		21EEA2C71D7F1C5F0045185A /* FirestackCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEA2C61D7F1C5F0045185A /* FirestackCrash.m */; };
 		D950369E1D19C77400F7094D /* Firestack.m in Sources */ = {isa = PBXBuildFile; fileRef = D950369D1D19C77400F7094D /* Firestack.m */; };
 		D962903F1D6D15B00099A3EC /* FirestackErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = D962903E1D6D15B00099A3EC /* FirestackErrors.m */; };
 		D96290451D6D16100099A3EC /* FirestackAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = D96290441D6D16100099A3EC /* FirestackAnalytics.m */; };
@@ -65,6 +67,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libFirestack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFirestack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EEA2C51D7F1C5F0045185A /* FirestackCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirestackCrash.h; path = Firestack/FirestackCrash.h; sourceTree = "<group>"; };
+		21EEA2C61D7F1C5F0045185A /* FirestackCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirestackCrash.m; path = Firestack/FirestackCrash.m; sourceTree = "<group>"; };
 		58A186F11042C569425E5D5F /* libPods-Firestack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Firestack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61152A448EBF126366D048D6 /* Pods-Firestack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firestack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firestack/Pods-Firestack.release.xcconfig"; sourceTree = "<group>"; };
 		D950369C1D19C77400F7094D /* Firestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Firestack.h; path = Firestack/Firestack.h; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 				D972616D1D550D0B000F703F /* GoogleParsingUtilities.framework in Frameworks */,
 				D972616F1D550D0F000F703F /* GoogleSymbolUtilities.framework in Frameworks */,
 				D97261711D550D13000F703F /* GoogleUtilities.framework in Frameworks */,
+				170224EDD547FC0C78DA1E9D /* libPods-Firestack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +207,8 @@
 			children = (
 				D9D62E7E1D6D8717003D826D /* FirestackAuth.h */,
 				D9D62E7F1D6D8717003D826D /* FirestackAuth.m */,
+				21EEA2C51D7F1C5F0045185A /* FirestackCrash.h */,
+				21EEA2C61D7F1C5F0045185A /* FirestackCrash.m */,
 				D96290391D6D152A0099A3EC /* FirestackEvents.h */,
 				D962903D1D6D15B00099A3EC /* FirestackErrors.h */,
 				D962903E1D6D15B00099A3EC /* FirestackErrors.m */,
@@ -325,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EEA2C71D7F1C5F0045185A /* FirestackCrash.m in Sources */,
 				D9D62E801D6D8717003D826D /* FirestackAuth.m in Sources */,
 				D96290451D6D16100099A3EC /* FirestackAnalytics.m in Sources */,
 				D9D62E7C1D6D86FD003D826D /* FirestackStorage.m in Sources */,
